@@ -1,0 +1,3 @@
+[submodule "vendor/tlse"]
+	path = vendor/tlse
+	url = https://github.com/kaansenol5/tlse.git
