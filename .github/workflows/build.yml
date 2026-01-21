@@ -60,7 +60,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: kikios-qemu-disk
-        path: kikios.img
+        path: disk.img
         if-no-files-found: error
     
     - name: Upload full build
@@ -70,7 +70,7 @@ jobs:
         path: |
           build/kikios.bin
           build/kikios.elf
-          kikios.img
+          disk.img
           kikios_root/
         if-no-files-found: warn
 
